@@ -22,6 +22,3 @@ funcWithArgs("Hello ","Universe")
 
 console.log("\n")
 
-// Global Scope and Functions
-
-
