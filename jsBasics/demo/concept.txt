@@ -1,0 +1,32 @@
+There are 3 ways to run JS:
+
+1. FROM THE BROWSER 
+    + Create a normal html page 
+    + Open the dev tools 
+    + Cllick on console in the side bar 
+    + type out your js code there 
+    
+    - Cannot possibly type out all code in the console
+    - It is for temporary purpose only 
+
+2. INLINE JS 
+    + use a script tag inside of the body tag in your html page
+    + wrie all js there
+    
+    - usually not considered as the best practice
+    - code gets too big to debug
+
+3. EXTERNAL JS
+
+    + Create a seperate js file with the extension of .js
+    + where you have called the script tag add a parameter/ attribute called source (src)
+    + Example : 
+            <script src="main.js"></script>
+
+
+
+Note :
+
+In the index.html page (Please refer code ) :
+
+-- line no 9 does not execute any longer since the src arg is used in the script tag
